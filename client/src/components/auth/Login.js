@@ -14,7 +14,6 @@ const Login = () => {
 
   useEffect(() => {
     if (isAuthenticated) {
-      console.log("I am here");
       navigate("/");
     }
     if (error === "Invalid Credentials") {

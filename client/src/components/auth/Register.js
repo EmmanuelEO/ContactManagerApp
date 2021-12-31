@@ -14,7 +14,6 @@ const Register = props => {
 
   useEffect(() => {
     if (isAuthenticated) {
-      console.log("I am here");
       navigate('/');
     }
     if (error === 'User already exists') {
